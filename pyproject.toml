@@ -1,0 +1,15 @@
+[build-system]
+requires = ["setuptools>=61", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "autodoc"
+version = "0.1.0"
+description = "A simple package to test auto documentation"
+requires-python = ">=3.9"
+authors = [
+  { name="wdk0082" }
+]
+
+[tool.setuptools.packages.find]
+where = ["src"]

@@ -22,4 +22,4 @@ formats:
 # pip install dependencies
 python:
   install:
-  - requirements: ./docs/requirements.txt
+  - requirements: docs/requirements.txt
